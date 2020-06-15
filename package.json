@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-a11y-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axe-core": "^3.5.4",
+    "axe-testcafe": "^3.0.0",
+    "testcafe": "^1.8.6"
+  },
+  "scripts": {
+    "test": "testcafe chrome test.js"
+  }
+}
